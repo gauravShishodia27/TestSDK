@@ -1,0 +1,11 @@
+framework module PickupSDK {
+  umbrella header "PickupSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PickupSDK.Swift {
+    header "PickupSDK-Swift.h"
+    requires objc
+}
