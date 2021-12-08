@@ -139,7 +139,7 @@ extension OrderManager {
   @objc public static func getOrderDetail(orderId: Swift.String?, completion: @escaping PickupSDK.OrderManager.CreateOrderCompletion)
 }
 extension OrderManager {
-  public static func claimWebOrder(claimToken: Swift.String, completion: @escaping PickupSDK.OrderManager.CreateOrderCompletion)
+  @objc public static func claimWebOrder(claimToken: Swift.String, completion: @escaping PickupSDK.OrderManager.CreateOrderCompletion)
   public static func getClaimParams(claimToken: Swift.String) -> Alamofire.Parameters
 }
 @objc open class PickupLocationResModel : ObjectiveC.NSObject, Swift.Codable {
