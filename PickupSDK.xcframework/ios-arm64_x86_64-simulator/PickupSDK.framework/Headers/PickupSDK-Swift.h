@@ -253,6 +253,7 @@ SWIFT_CLASS("_TtC9PickupSDK12OrderManager")
 @end
 
 
+
 @interface OrderManager (SWIFT_EXTENSION(PickupSDK))
 + (void)getActiveOrderListWithCompletion:(void (^ _Nonnull)(NSArray<PickupOrderResModel *> * _Nullable, NSError * _Nullable))completion;
 + (void)getOrderDetailWithOrderId:(NSString * _Nullable)orderId completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
@@ -615,6 +616,7 @@ SWIFT_CLASS("_TtC9PickupSDK12OrderManager")
 + (void)createWithParams:(NSDictionary<NSString *, id> * _Nonnull)params completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 @interface OrderManager (SWIFT_EXTENSION(PickupSDK))

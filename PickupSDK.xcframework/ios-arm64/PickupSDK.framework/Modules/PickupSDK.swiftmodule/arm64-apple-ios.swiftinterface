@@ -138,6 +138,10 @@ extension OrderManager {
   @objc public static func getActiveOrderList(completion: @escaping PickupSDK.OrderManager.getOrderListCompletion)
   @objc public static func getOrderDetail(orderId: Swift.String?, completion: @escaping PickupSDK.OrderManager.CreateOrderCompletion)
 }
+extension OrderManager {
+  public static func claimWebOrder(claimToken: Swift.String, completion: @escaping PickupSDK.OrderManager.CreateOrderCompletion)
+  public static func getClaimParams(claimToken: Swift.String) -> Alamofire.Parameters
+}
 @objc open class PickupLocationResModel : ObjectiveC.NSObject, Swift.Codable {
   open var address: Swift.String?
   open var brand: Swift.String?
@@ -351,6 +355,10 @@ extension URL {
   @objc deinit
 }
 public func + <K, V>(left: [K : V]?, right: [K : V]?) -> [K : V]? where K : Swift.Hashable
+public protocol LocationStatusManagerDelegate {
+  func didUpdateUserStatus(_ data: PickupSDK.PickupOrderResModel?)
+  func didFailToUpdateUserStatus(_ error: Swift.Error?)
+}
 @objc @_inheritsConvenienceInitializers public class LocationStatusManager : ObjectiveC.NSObject {
   public typealias LocationStatusCompletion = (PickupSDK.PickupOrderResModel?, Swift.Error?) -> ()
   @objc public static func updateUserStatus(params: [Swift.String : Any], orderId: Swift.String, completion: @escaping PickupSDK.LocationStatusManager.LocationStatusCompletion)

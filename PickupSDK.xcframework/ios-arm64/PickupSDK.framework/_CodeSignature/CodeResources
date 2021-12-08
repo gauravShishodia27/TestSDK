@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PickupSDK-Swift.h</key>
 		<data>
-		jSAXBJ1OyO1Aa2q3z9jqqaDfENg=
+		yzXBz10z5rH+pdbfKVFa9EXKIvg=
 		</data>
 		<key>Headers/PickupSDK.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		pC2+ZxCenrP98ucvA6zXrl1Te4E=
+		xK1Lka/ZK0jCB/XuVu7VRCSoi6E=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mcNpe3S6A6IGRjdea45DrYLjeFg=
+		HJYaz5D3e2wmDhDpglMytjmMcfU=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,19 +34,15 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		pC2+ZxCenrP98ucvA6zXrl1Te4E=
+		xK1Lka/ZK0jCB/XuVu7VRCSoi6E=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		mcNpe3S6A6IGRjdea45DrYLjeFg=
+		HJYaz5D3e2wmDhDpglMytjmMcfU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		/NDi5hbLlArlzrErGSMkTZu1EOM=
-		</data>
-		<key>strip-frameworks.sh</key>
-		<data>
-		dsQUNtdAiXM3fRd8YSFrHiYghus=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/vGsljJ8nmr+keMT2iTD+kMh4mNqo9K30EMjWJpb0tw=
+			Aoq2v5gX1IjdfTA0VWzEpnRWcfhxIxgaR4PQd8lX3Tc=
 			</data>
 		</dict>
 		<key>Headers/PickupSDK.h</key>
@@ -76,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFP3k+gmUEVysAHnIx4vxnzxHgruZa7DZG+S06WWwCQ=
+			hJK542tOjAbraIK1J5CFqgVmGH5Oo6Kb2VyMQyUbPvA=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kM/UV7I/i0wMpG5L2zIYl+1bgLJqrePK6yq9gcBQdfo=
+			xVSDuCRnle4b/Ze2SECdZlllqvx7Eo4iElWjP4xB1b0=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
@@ -97,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lFP3k+gmUEVysAHnIx4vxnzxHgruZa7DZG+S06WWwCQ=
+			hJK542tOjAbraIK1J5CFqgVmGH5Oo6Kb2VyMQyUbPvA=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kM/UV7I/i0wMpG5L2zIYl+1bgLJqrePK6yq9gcBQdfo=
+			xVSDuCRnle4b/Ze2SECdZlllqvx7Eo4iElWjP4xB1b0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -112,13 +108,6 @@
 			<key>hash2</key>
 			<data>
 			p7H6Pebey7PFm6CnrST6Ns9ESqX2fvkLDZfQLICSfx4=
-			</data>
-		</dict>
-		<key>strip-frameworks.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lQNJ0qgRQe6owBI6RB3K2Dtts0YOipGvYZKOGu2/Z8M=
 			</data>
 		</dict>
 	</dict>

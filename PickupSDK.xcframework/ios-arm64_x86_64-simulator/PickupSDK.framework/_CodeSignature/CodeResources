@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PickupSDK-Swift.h</key>
 		<data>
-		BmuBkVeSsghJ7b6vjifrPHu1uOc=
+		YfVQjI5EcJDcZzoC0sQHYgs2gfs=
 		</data>
 		<key>Headers/PickupSDK.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zasJslgw3NJud6FEAuDK1kluWyQ=
+		QzlLWw6Ie0Dp8vz0HzErzrkBEb8=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GOFRziDDzDUG4WfCmR/kD0iTTvs=
+		PhSg0zjQHvIdE2nBnvj0CMzNnqQ=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		zasJslgw3NJud6FEAuDK1kluWyQ=
+		QzlLWw6Ie0Dp8vz0HzErzrkBEb8=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GOFRziDDzDUG4WfCmR/kD0iTTvs=
+		PhSg0zjQHvIdE2nBnvj0CMzNnqQ=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dLA2C/ADwimOMGPuIlokp/oMG5M=
+		sijajfVnlS9Z/3g5+W4ZKvuHNBg=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cdlTwxKjgf1gM39JM9rAkBop3WE=
+		62o93Ew5OFO4EwAOVPFfnB51aBA=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,19 +58,15 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		dLA2C/ADwimOMGPuIlokp/oMG5M=
+		sijajfVnlS9Z/3g5+W4ZKvuHNBg=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		cdlTwxKjgf1gM39JM9rAkBop3WE=
+		62o93Ew5OFO4EwAOVPFfnB51aBA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		/NDi5hbLlArlzrErGSMkTZu1EOM=
-		</data>
-		<key>strip-frameworks.sh</key>
-		<data>
-		dsQUNtdAiXM3fRd8YSFrHiYghus=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -79,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4CI2ORiqJAWTTppCz5yt99Mz3sWLA8On2ikN8qbJ2PQ=
+			/gxMbJPPEZbdEKmnoHpMRhReg2lq9i08VuDvaQQvXJc=
 			</data>
 		</dict>
 		<key>Headers/PickupSDK.h</key>
@@ -100,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5HwkDO/ocJNzG1Jo+WymDydLEmqGHzwH5CyRfF1hXG8=
+			0RevoMdstUyVKch3+dWVXu4gbcisCqEbwhikFJOefCg=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENURgIX+ZtYBXsEG/ccVWIfr71H4e2YTBU2n0KQBpPk=
+			MJyoXH6OBTz7n5j3iUIEspCfY2oSqOVtuLa4xHc6mkk=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
@@ -121,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5HwkDO/ocJNzG1Jo+WymDydLEmqGHzwH5CyRfF1hXG8=
+			0RevoMdstUyVKch3+dWVXu4gbcisCqEbwhikFJOefCg=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ENURgIX+ZtYBXsEG/ccVWIfr71H4e2YTBU2n0KQBpPk=
+			MJyoXH6OBTz7n5j3iUIEspCfY2oSqOVtuLa4xHc6mkk=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -142,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hleBzwQObtttYeeX6Dh/rpdY+L1Sf1BYGVsX9Lmw6+U=
+			bVu305yd8kE7Tq7G+xDgT5DqQ92EvJLrb16hcmLQvLA=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2WQb3DVZGiZ+URSJuz52snIlFvFPMULKw/lqqu+Vyug=
+			nvmzDPaxVcWTguN11yvo4dLK/9azCYTB25BouxjxH8E=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -163,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hleBzwQObtttYeeX6Dh/rpdY+L1Sf1BYGVsX9Lmw6+U=
+			bVu305yd8kE7Tq7G+xDgT5DqQ92EvJLrb16hcmLQvLA=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2WQb3DVZGiZ+URSJuz52snIlFvFPMULKw/lqqu+Vyug=
+			nvmzDPaxVcWTguN11yvo4dLK/9azCYTB25BouxjxH8E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -178,13 +174,6 @@
 			<key>hash2</key>
 			<data>
 			p7H6Pebey7PFm6CnrST6Ns9ESqX2fvkLDZfQLICSfx4=
-			</data>
-		</dict>
-		<key>strip-frameworks.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lQNJ0qgRQe6owBI6RB3K2Dtts0YOipGvYZKOGu2/Z8M=
 			</data>
 		</dict>
 	</dict>

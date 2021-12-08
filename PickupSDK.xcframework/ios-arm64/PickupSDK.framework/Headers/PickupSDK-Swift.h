@@ -251,6 +251,7 @@ SWIFT_CLASS("_TtC9PickupSDK12OrderManager")
 @end
 
 
+
 @interface OrderManager (SWIFT_EXTENSION(PickupSDK))
 + (void)getActiveOrderListWithCompletion:(void (^ _Nonnull)(NSArray<PickupOrderResModel *> * _Nullable, NSError * _Nullable))completion;
 + (void)getOrderDetailWithOrderId:(NSString * _Nullable)orderId completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
