@@ -346,7 +346,7 @@ extension URL {
   }
 }
 @objc @_inheritsConvenienceInitializers public class PickupConfiguration : ObjectiveC.NSObject {
-  public static var delegate: PickupSDK.LocationStatusManagerDelegate?
+  @objc public static var delegate: PickupSDK.LocationStatusManagerDelegate?
   public static func punchhURL(uri: Swift.String) -> Foundation.URL
   public static func punchhURLString(uri: Swift.String) -> Swift.String
   @objc public static func initialise(client: Swift.String, secret: Swift.String, isProd prod: Swift.Bool)
@@ -356,9 +356,9 @@ extension URL {
   @objc deinit
 }
 public func + <K, V>(left: [K : V]?, right: [K : V]?) -> [K : V]? where K : Swift.Hashable
-public protocol LocationStatusManagerDelegate {
-  func didUpdateUserStatus(_ data: PickupSDK.PickupOrderResModel?)
-  func didFailToUpdateUserStatus(_ error: Swift.Error?)
+@objc public protocol LocationStatusManagerDelegate {
+  @objc func didUpdateUserStatus(_ data: PickupSDK.PickupOrderResModel?)
+  @objc func didFailToUpdateUserStatus(_ error: Swift.Error?)
 }
 @objc @_inheritsConvenienceInitializers public class LocationStatusManager : ObjectiveC.NSObject {
   public typealias LocationStatusCompletion = (PickupSDK.PickupOrderResModel?, Swift.Error?) -> ()
