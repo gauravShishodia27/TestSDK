@@ -346,6 +346,7 @@ extension URL {
   }
 }
 @objc @_inheritsConvenienceInitializers public class PickupConfiguration : ObjectiveC.NSObject {
+  public static var delegate: PickupSDK.LocationStatusManagerDelegate?
   public static func punchhURL(uri: Swift.String) -> Foundation.URL
   public static func punchhURLString(uri: Swift.String) -> Swift.String
   @objc public static func initialise(client: Swift.String, secret: Swift.String, isProd prod: Swift.Bool)
