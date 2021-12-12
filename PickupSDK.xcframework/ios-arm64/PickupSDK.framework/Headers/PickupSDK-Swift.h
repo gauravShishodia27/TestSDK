@@ -332,6 +332,7 @@ SWIFT_CLASS("_TtC9PickupSDK18PickupMetaResModel")
 
 SWIFT_CLASS("_TtC9PickupSDK26PickupNotificationResModel")
 @interface PickupNotificationResModel : NSObject
+@property (nonatomic, copy) NSString * _Nullable message;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

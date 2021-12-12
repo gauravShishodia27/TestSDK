@@ -119,7 +119,7 @@ extension String {
   public var externalOrderId: Swift.String?
   public var id: Swift.Int?
   public var kind: Swift.String?
-  public var message: Swift.String?
+  @objc public var message: Swift.String?
   public var readAt: Swift.String?
   public var userSurveyId: Swift.String?
   required public init(from decoder: Swift.Decoder) throws
