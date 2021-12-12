@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		NfKb1aDuFmJf2U/nv47y9MWCRjE=
+		xcav/LsjMPAgNkL+wb6Gu+Q11no=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		NfKb1aDuFmJf2U/nv47y9MWCRjE=
+		xcav/LsjMPAgNkL+wb6Gu+Q11no=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sgfV0YGwEpgR0C/R/lxx3imH1KTurTVjT2TI3QpFqNM=
+			NwUxrsh6Wq8DYBAj/2dfqWCFv37SZuRaXGj0C/2DsD0=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sgfV0YGwEpgR0C/R/lxx3imH1KTurTVjT2TI3QpFqNM=
+			NwUxrsh6Wq8DYBAj/2dfqWCFv37SZuRaXGj0C/2DsD0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
