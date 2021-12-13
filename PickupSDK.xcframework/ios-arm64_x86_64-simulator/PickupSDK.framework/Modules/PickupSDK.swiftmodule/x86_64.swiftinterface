@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PickupSDK
 import Alamofire
 import CoreLocation
@@ -10,6 +10,7 @@ import MapKit
 import Security
 import Swift
 import UIKit
+import _Concurrency
 @objc @_inheritsConvenienceInitializers public class MetaManager : ObjectiveC.NSObject {
   public static var data: PickupSDK.PickupMetaResModel?
   public typealias MetaCompletion = (PickupSDK.PickupMetaResModel?, Swift.Error?) -> ()
@@ -32,7 +33,6 @@ import UIKit
   public var membershipNumber: Swift.String?
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc public class PickupResModel : ObjectiveC.NSObject, Swift.Codable {
@@ -48,7 +48,6 @@ import UIKit
   public var trackingTime: Swift.Int?
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class NetworkManager : ObjectiveC.NSObject {
@@ -77,7 +76,7 @@ import UIKit
   public func asURLRequest() -> Foundation.URLRequest
   @objc deinit
 }
-extension String {
+extension Swift.String {
   public var trim: Swift.String {
     get
   }
@@ -124,7 +123,6 @@ extension String {
   public var userSurveyId: Swift.String?
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class OrderManager : ObjectiveC.NSObject {
@@ -134,11 +132,11 @@ extension String {
   @objc override dynamic public init()
   @objc deinit
 }
-extension OrderManager {
+extension PickupSDK.OrderManager {
   @objc public static func getActiveOrderList(completion: @escaping PickupSDK.OrderManager.getOrderListCompletion)
   @objc public static func getOrderDetail(orderId: Swift.String?, completion: @escaping PickupSDK.OrderManager.CreateOrderCompletion)
 }
-extension OrderManager {
+extension PickupSDK.OrderManager {
   @objc public static func claimWebOrder(claimToken: Swift.String, completion: @escaping PickupSDK.OrderManager.CreateOrderCompletion)
   public static func getClaimParams(claimToken: Swift.String) -> Alamofire.Parameters
 }
@@ -164,7 +162,6 @@ extension OrderManager {
   public var pickup: PickupSDK.PickupResModel?
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc public class PickupOrderStatusResModel : ObjectiveC.NSObject, Swift.Codable {
@@ -173,7 +170,6 @@ extension OrderManager {
   public var time: Swift.String?
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc public class PickupCustomerStatusResModel : ObjectiveC.NSObject, Swift.Codable {
@@ -187,7 +183,6 @@ extension OrderManager {
   public var updatedAt: Swift.String?
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc open class PickupMetaResModel : ObjectiveC.NSObject, Swift.Codable {
@@ -278,7 +273,6 @@ extension OrderManager {
   }
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc public class PickupOrderResModel : ObjectiveC.NSObject, Swift.Codable {
@@ -302,7 +296,6 @@ extension OrderManager {
   public var readyDate: Foundation.Date?
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class RequestHeader : ObjectiveC.NSObject {
@@ -332,7 +325,7 @@ extension OrderManager {
 @_hasMissingDesignatedInitializers public class Storage {
   @objc deinit
 }
-extension Data {
+extension Foundation.Data {
   public var toString: Swift.String? {
     get
   }
@@ -340,7 +333,7 @@ extension Data {
     get
   }
 }
-extension URL {
+extension Foundation.URL {
   public var URI: Swift.String {
     get
   }
@@ -377,7 +370,6 @@ public func + <K, V>(left: [K : V]?, right: [K : V]?) -> [K : V]? where K : Swif
   public var lng: Swift.Double?
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
   @objc deinit
 }
 extension PickupSDK.PUHTTPMethod : Swift.Equatable {}

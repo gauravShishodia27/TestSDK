@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PickupSDK-Swift.h</key>
 		<data>
-		6vay5cuMeS9Ha+znxW2g/bvH1g0=
+		Z/uNypM/gAByLRjvtUuJs4ngqPE=
 		</data>
 		<key>Headers/PickupSDK.h</key>
 		<data>
@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BuSkHfoH0ISJtsng12IqsJDI6WI=
+		FQYfiBnqgIyVU+DfR66Eol5B68Q=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cmipelcBFyRv2mwRWprlaoJQn+k=
+		JnQgiauvGUVMxxslbKZCTTiTvBg=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PHI4/pzrIKtKaJgkgFOARFLRZj8=
+		Xn1aUf16Z8e7nA5iId3HFbj29PE=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vfiwuX+0QV8ZN+0wvifPRYkuaVQ=
+		dn3dsr8rg18DvzEioSopD74mFCY=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		cmipelcBFyRv2mwRWprlaoJQn+k=
+		JnQgiauvGUVMxxslbKZCTTiTvBg=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		PHI4/pzrIKtKaJgkgFOARFLRZj8=
+		Xn1aUf16Z8e7nA5iId3HFbj29PE=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		vfiwuX+0QV8ZN+0wvifPRYkuaVQ=
+		dn3dsr8rg18DvzEioSopD74mFCY=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zTPe3L28VdGyM0Dd4p76VeSK2q8=
+		hfd5+jsZ1GlsV99661QbQaqau8Q=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5vU+Q+jYZ/qDOB0w+uukIuNr2VE=
+		wnsFuFHgwfS+wvt0kP64mxHAIiM=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kTHVwVon7exh0wIavLlxQFZE1e8=
+		YjPVcJQjpsoLM65wXkZAD14iXlQ=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		zTPe3L28VdGyM0Dd4p76VeSK2q8=
+		hfd5+jsZ1GlsV99661QbQaqau8Q=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		5vU+Q+jYZ/qDOB0w+uukIuNr2VE=
+		wnsFuFHgwfS+wvt0kP64mxHAIiM=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		kTHVwVon7exh0wIavLlxQFZE1e8=
+		YjPVcJQjpsoLM65wXkZAD14iXlQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CbOTcOXRDnNzUCVyFuPoxF3sMftQeny9fWBqqEZCWXw=
+			OaaQH68/Jz7AC2hwKtvqcpJaRVTHDPD7P4f+y2zkVEM=
 			</data>
 		</dict>
 		<key>Headers/PickupSDK.h</key>
@@ -89,84 +89,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/zH2lEAo7H1Wp27sxgwALPHl2lXHQbVIYSvie7giljY=
+			RT5N8XSedud2QaRSLwHnrqgRcVHlFoE/QGwqiiOC7vk=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CIKBqIZgVJY+wmIbWSMDHZLOKaW2rFhu1tleABKGjkw=
+			trMr/e6ksTqCGmxaigW39fe/9ZtDZW3tVK4g14zIhHs=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SlqWLHpAR7oD9zYso6rMTBTwTx09u80/oU/mSzwFN5M=
+			hOTAdEGa+jQpFnkmo77JEf/vpHsKdgYE3KK+olGhKpI=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/zH2lEAo7H1Wp27sxgwALPHl2lXHQbVIYSvie7giljY=
+			RT5N8XSedud2QaRSLwHnrqgRcVHlFoE/QGwqiiOC7vk=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CIKBqIZgVJY+wmIbWSMDHZLOKaW2rFhu1tleABKGjkw=
+			trMr/e6ksTqCGmxaigW39fe/9ZtDZW3tVK4g14zIhHs=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SlqWLHpAR7oD9zYso6rMTBTwTx09u80/oU/mSzwFN5M=
+			hOTAdEGa+jQpFnkmo77JEf/vpHsKdgYE3KK+olGhKpI=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+SJDlh/7cKGjp/cXQkUAWkFWqhFzeAafiB1v3ad4LvE=
+			SkGugPVv+RX1b1qIil4M6qGXsmoowxKY8+c/rySqsDk=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mWa51CeKM2j5W8O7AuAv7GE9fErX8gBYzW5iL26w2Z0=
+			xj1InUxohe489hZJKaLJQg7DogZVw2LuA0eFFNoXTPo=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			388I0oNi/E0hD2romWiikP4YC54V1MAPH2ogoZJqQyk=
+			TX8keaN24Vp7SETPjAMRYSqGKg9aDB0T/TmrVi0tWMk=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+SJDlh/7cKGjp/cXQkUAWkFWqhFzeAafiB1v3ad4LvE=
+			SkGugPVv+RX1b1qIil4M6qGXsmoowxKY8+c/rySqsDk=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mWa51CeKM2j5W8O7AuAv7GE9fErX8gBYzW5iL26w2Z0=
+			xj1InUxohe489hZJKaLJQg7DogZVw2LuA0eFFNoXTPo=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			388I0oNi/E0hD2romWiikP4YC54V1MAPH2ogoZJqQyk=
+			TX8keaN24Vp7SETPjAMRYSqGKg9aDB0T/TmrVi0tWMk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
