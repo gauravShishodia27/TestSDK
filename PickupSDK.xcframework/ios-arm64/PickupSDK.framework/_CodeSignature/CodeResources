@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PickupSDK-Swift.h</key>
 		<data>
-		QZcmnVSRQUMC8rtMuc9ejiVnB9U=
+		QjyOirVOvJKMCI4Tyvkmg9N8m50=
 		</data>
 		<key>Headers/PickupSDK.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+92lLS9NzbrXjfQC9CStZubOsIU=
+		cmhizgfs9lW08B4en6bWdYF9nC0=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		O8BzGgKgdzVsiNbiVEnZ0Oo85ns=
+		zzck8o2ak2gtlQD1OW2hZsmVQp0=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		+92lLS9NzbrXjfQC9CStZubOsIU=
+		cmhizgfs9lW08B4en6bWdYF9nC0=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		O8BzGgKgdzVsiNbiVEnZ0Oo85ns=
+		zzck8o2ak2gtlQD1OW2hZsmVQp0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9thp7qjvpIicW6M7hfF0Qe1N0Ylk/AILMk0zAkMjWqg=
+			7tnPNpVDp3+2mPJrlgCLbXgRV8HVhXN4YY3xlCm3hGo=
 			</data>
 		</dict>
 		<key>Headers/PickupSDK.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ew6UlrScKCyRr8II8sltQ2ZTy1bD1CuGT4BJcSvPwoM=
+			hTNJJa+F/DAeUQgDW0/KTKYgF2+dVmsJfRZUglWtJxc=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HMHuLtxYZEcpkU+aSiBZYpZTIDovn4b5P65Ayfrn6SI=
+			MGxzIsUxLZIxiylm6lgCQKtAw8g1NY77WmgyM7+gq3o=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ew6UlrScKCyRr8II8sltQ2ZTy1bD1CuGT4BJcSvPwoM=
+			hTNJJa+F/DAeUQgDW0/KTKYgF2+dVmsJfRZUglWtJxc=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HMHuLtxYZEcpkU+aSiBZYpZTIDovn4b5P65Ayfrn6SI=
+			MGxzIsUxLZIxiylm6lgCQKtAw8g1NY77WmgyM7+gq3o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
