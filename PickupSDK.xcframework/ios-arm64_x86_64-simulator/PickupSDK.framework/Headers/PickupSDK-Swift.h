@@ -220,6 +220,13 @@ SWIFT_CLASS("_TtC9PickupSDK21LocationStatusManager")
 @end
 
 
+SWIFT_PROTOCOL("_TtP9PickupSDK29LocationStatusManagerDelegate_")
+@protocol LocationStatusManagerDelegate
+- (void)didUpdateUserStatus:(PickupOrderResModel * _Nullable)data;
+- (void)didFailToUpdateUserStatus:(NSError * _Nullable)error;
+@end
+
+
 SWIFT_CLASS("_TtC9PickupSDK11MetaManager")
 @interface MetaManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -286,6 +293,9 @@ SWIFT_CLASS("_TtC9PickupSDK29PickupArrivalGeofenceResModel")
 
 SWIFT_CLASS("_TtC9PickupSDK19PickupConfiguration")
 @interface PickupConfiguration : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <LocationStatusManagerDelegate> _Nullable delegate;)
++ (id <LocationStatusManagerDelegate> _Nullable)delegate SWIFT_WARN_UNUSED_RESULT;
++ (void)setDelegate:(id <LocationStatusManagerDelegate> _Nullable)value;
 + (void)initialiseWithClient:(NSString * _Nonnull)client secret:(NSString * _Nonnull)secret isProd:(BOOL)prod;
 + (void)setPunchhUserAccessTokenWithToken:(NSString * _Nonnull)token;
 + (NSString * _Nullable)getAccessToken SWIFT_WARN_UNUSED_RESULT;
@@ -324,6 +334,7 @@ SWIFT_CLASS("_TtC9PickupSDK18PickupMetaResModel")
 
 SWIFT_CLASS("_TtC9PickupSDK26PickupNotificationResModel")
 @interface PickupNotificationResModel : NSObject
+@property (nonatomic, copy) NSString * _Nullable message;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -596,6 +607,13 @@ SWIFT_CLASS("_TtC9PickupSDK21LocationStatusManager")
 @end
 
 
+SWIFT_PROTOCOL("_TtP9PickupSDK29LocationStatusManagerDelegate_")
+@protocol LocationStatusManagerDelegate
+- (void)didUpdateUserStatus:(PickupOrderResModel * _Nullable)data;
+- (void)didFailToUpdateUserStatus:(NSError * _Nullable)error;
+@end
+
+
 SWIFT_CLASS("_TtC9PickupSDK11MetaManager")
 @interface MetaManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -662,6 +680,9 @@ SWIFT_CLASS("_TtC9PickupSDK29PickupArrivalGeofenceResModel")
 
 SWIFT_CLASS("_TtC9PickupSDK19PickupConfiguration")
 @interface PickupConfiguration : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <LocationStatusManagerDelegate> _Nullable delegate;)
++ (id <LocationStatusManagerDelegate> _Nullable)delegate SWIFT_WARN_UNUSED_RESULT;
++ (void)setDelegate:(id <LocationStatusManagerDelegate> _Nullable)value;
 + (void)initialiseWithClient:(NSString * _Nonnull)client secret:(NSString * _Nonnull)secret isProd:(BOOL)prod;
 + (void)setPunchhUserAccessTokenWithToken:(NSString * _Nonnull)token;
 + (NSString * _Nullable)getAccessToken SWIFT_WARN_UNUSED_RESULT;
@@ -700,6 +721,7 @@ SWIFT_CLASS("_TtC9PickupSDK18PickupMetaResModel")
 
 SWIFT_CLASS("_TtC9PickupSDK26PickupNotificationResModel")
 @interface PickupNotificationResModel : NSObject
+@property (nonatomic, copy) NSString * _Nullable message;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

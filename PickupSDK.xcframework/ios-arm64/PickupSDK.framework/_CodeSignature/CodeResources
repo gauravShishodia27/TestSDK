@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PickupSDK-Swift.h</key>
 		<data>
-		QjyOirVOvJKMCI4Tyvkmg9N8m50=
+		slEJRwrjfZXkPX4g//L/Cz5nS38=
 		</data>
 		<key>Headers/PickupSDK.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		cmhizgfs9lW08B4en6bWdYF9nC0=
+		ID+ZgfUfh5d6i0oXP0LsHGcNOPI=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zzck8o2ak2gtlQD1OW2hZsmVQp0=
+		NslF8fjMhdMKkWvYVrRrf8NWXpo=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		cmhizgfs9lW08B4en6bWdYF9nC0=
+		ID+ZgfUfh5d6i0oXP0LsHGcNOPI=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		zzck8o2ak2gtlQD1OW2hZsmVQp0=
+		NslF8fjMhdMKkWvYVrRrf8NWXpo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7tnPNpVDp3+2mPJrlgCLbXgRV8HVhXN4YY3xlCm3hGo=
+			WC5pHKIhQKtTWcY0C3KL8WpLODzuRXPxf8xgYlez4nc=
 			</data>
 		</dict>
 		<key>Headers/PickupSDK.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hTNJJa+F/DAeUQgDW0/KTKYgF2+dVmsJfRZUglWtJxc=
+			KxekoUPyLK70dDUtU2e2SYkUbViGEpakwYmB5GiSFXw=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MGxzIsUxLZIxiylm6lgCQKtAw8g1NY77WmgyM7+gq3o=
+			6PySzfi5E9tUrDOhI8FgG1XRDMgJ+4v7bK69smY93ws=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hTNJJa+F/DAeUQgDW0/KTKYgF2+dVmsJfRZUglWtJxc=
+			KxekoUPyLK70dDUtU2e2SYkUbViGEpakwYmB5GiSFXw=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MGxzIsUxLZIxiylm6lgCQKtAw8g1NY77WmgyM7+gq3o=
+			6PySzfi5E9tUrDOhI8FgG1XRDMgJ+4v7bK69smY93ws=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
