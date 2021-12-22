@@ -4,6 +4,30 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<data>
+		DlXoWEAqLKgt/YEuNfLKosco9iY=
+		</data>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<data>
+		73Vy4h8N1VAz+ngwSjv/aVqmmsY=
+		</data>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<data>
+		QJ8lc8n5lpQsk4xUWsaM0WEGblU=
+		</data>
+		<key>Frameworks/CryptoSwift.framework/CryptoSwift</key>
+		<data>
+		dg8YxxpzMHGtSd+f1tntz0SrqOg=
+		</data>
+		<key>Frameworks/CryptoSwift.framework/Info.plist</key>
+		<data>
+		TKKnQjR4TmQXwaItzuj9EQCT7Vo=
+		</data>
+		<key>Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		0qZeaYo8Z8to8Vi49WZXwxLHH0Q=
+		</data>
 		<key>Headers/PickupSDK-Swift.h</key>
 		<data>
 		slEJRwrjfZXkPX4g//L/Cz5nS38=
@@ -47,6 +71,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			155KQe1/1Nedf7OPobfEbtD2o6KFkaXD9HitZ4yFxms=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gWo50qQkzi2i/u1yv1wo5wKCnYVZhABnih3fTpHcXIM=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CZIcp1jrywTdI+heuvYeBgbNWCt6A8NyZZfuC+ySCrg=
+			</data>
+		</dict>
+		<key>Frameworks/CryptoSwift.framework/CryptoSwift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nIzjdX8SNkRjNMLV5FdktvoJotSbhHyk9DF9+hu10TE=
+			</data>
+		</dict>
+		<key>Frameworks/CryptoSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CsmHh8oC5TQGmaozBlF0eixGME3Yr4cacMd2mVB9b/Y=
+			</data>
+		</dict>
+		<key>Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			37TlZFSQZZBWGUfAer229tWFBPlLisFLixPYsPdRy1g=
+			</data>
+		</dict>
 		<key>Headers/PickupSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>

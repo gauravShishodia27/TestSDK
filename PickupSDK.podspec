@@ -15,4 +15,8 @@ Pod::Spec.new do |spec|
 
   spec.vendored_frameworks = "PickupSDK.xcframework"
 
+  spec.dependency 'Alamofire'
+  spec.dependency 'CryptoSwift'
+
+
 end
