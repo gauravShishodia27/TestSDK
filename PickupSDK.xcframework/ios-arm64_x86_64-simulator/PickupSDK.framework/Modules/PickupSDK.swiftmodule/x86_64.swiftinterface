@@ -13,11 +13,6 @@ import UIKit
 @objc @_inheritsConvenienceInitializers public class MetaManager : ObjectiveC.NSObject {
   public static var data: PickupSDK.PickupMetaResModel?
   public typealias MetaCompletion = (PickupSDK.PickupMetaResModel?, Swift.Error?) -> ()
-  public static func getMeta(completion: @escaping PickupSDK.MetaManager.MetaCompletion)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers public class NetworkConstants : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
 }
@@ -51,11 +46,6 @@ import UIKit
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class NetworkManager : ObjectiveC.NSObject {
-  public static func send(request: Alamofire.URLRequestConvertible?, completion: @escaping (Alamofire.AFDataResponse<Any>?, Swift.AnyObject?, Swift.Bool) -> Swift.Void)
-  @objc override dynamic public init()
-  @objc deinit
-}
 @objc public enum PUHTTPMethod : Swift.Int {
   case options
   case get
@@ -71,11 +61,6 @@ import UIKit
   public var rawValue: Swift.Int {
     get
   }
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class RequestManager : ObjectiveC.NSObject, Alamofire.URLRequestConvertible {
-  public init?(uri: Swift.String, method: PickupSDK.PUHTTPMethod = .get, params: Alamofire.Parameters? = nil, httpHeaders: [Swift.String : Swift.String]? = nil)
-  public func asURLRequest() -> Foundation.URLRequest
-  @objc deinit
 }
 extension String {
   public var trim: Swift.String {
@@ -309,32 +294,9 @@ extension OrderManager {
   public var userName: Swift.String?
   public var vehicleDetails: Swift.String?
   public var readyDate: Foundation.Date?
+  public var totals: PickupSDK.PickupTotalResModel?
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers public class RequestHeader : ObjectiveC.NSObject {
-  public static let kDeviceID: Swift.String
-  public static let kDeviceMake: Swift.String
-  public static let kAcceptLanguage: Swift.String
-  public static let kAcceptTimezone: Swift.String
-  public static let kOSVersion: Swift.String
-  public static let kXPchDigest: Swift.String
-  public static let kUserAuth: Swift.String
-  public static var acceptLanguage: Swift.String {
-    get
-  }
-  public static var acceptTimeZone: Swift.String {
-    get
-  }
-  public static var osVersion: Swift.String {
-    get
-  }
-  public static var defaultHeaders: [Swift.String : Swift.String] {
-    get
-  }
-  public static func signedHeaders(body: Swift.String, addHeaders: [Swift.String : Swift.String]? = nil) -> [Swift.String : Swift.String]
   @objc override dynamic public init()
   @objc deinit
 }
@@ -353,6 +315,20 @@ extension URL {
   public var URI: Swift.String {
     get
   }
+}
+@objc public class PickupTotalResModel : ObjectiveC.NSObject, Swift.Codable {
+  public var subTotal: Swift.Double?
+  public var salesTax: Swift.Double?
+  public var discount: Swift.Double?
+  public var tip: Swift.Double?
+  public var feesTotal: Swift.Double?
+  public var customerDelivery: Swift.Double?
+  public var total: Swift.Double?
+  public var delivery: Swift.Double?
+  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class PickupConfiguration : ObjectiveC.NSObject {
   @objc public static var delegate: PickupSDK.LocationStatusManagerDelegate?

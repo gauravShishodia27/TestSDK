@@ -215,6 +215,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC9PickupSDK21LocationStatusManager")
 @interface LocationStatusManager : NSObject
+/// Call this function to update userStatus
+/// \param params request Parameters
+///
+/// \param orderId orderID for which the status is required to be update
+///
+/// \param completion completion handler (PickupOrderResModel?, Error?) for getting the callback of the async call.
+///
 + (void)updateUserStatusWithParams:(NSDictionary<NSString *, id> * _Nonnull)params orderId:(NSString * _Nonnull)orderId completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -232,22 +239,15 @@ SWIFT_CLASS("_TtC9PickupSDK11MetaManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC9PickupSDK16NetworkConstants")
-@interface NetworkConstants : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC9PickupSDK14NetworkManager")
-@interface NetworkManager : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class PickupNotificationResModel;
 
 SWIFT_CLASS("_TtC9PickupSDK19NotificationManager")
 @interface NotificationManager : NSObject
+/// get Notification for specific order ID
+/// \param orderId orderID
+///
+/// \param completion completion handler (PickupNotificationResModel?, Error?) to get the callback for async operations
+///
 + (void)getNotificationsWithOrderId:(NSString * _Nonnull)orderId completion:(void (^ _Nonnull)(PickupNotificationResModel * _Nullable, NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -255,18 +255,36 @@ SWIFT_CLASS("_TtC9PickupSDK19NotificationManager")
 
 SWIFT_CLASS("_TtC9PickupSDK12OrderManager")
 @interface OrderManager : NSObject
+/// Create Order using this function
+/// \param params createOrder Params
+///
+/// \param completion completion handler (PickupOrderResModel?, Error?) to get the callback of the asyc operation.
+///
 + (void)createWithParams:(NSDictionary<NSString *, id> * _Nonnull)params completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 @interface OrderManager (SWIFT_EXTENSION(PickupSDK))
+/// To claim the order placed via website.
+/// \param claimToken claimToken provided in the email or deeplink
+///
+/// \param completion completion handler (PickupOrderResModel?, Error?) for getting the callback of the async operation.
+///
 + (void)claimWebOrderWithClaimToken:(NSString * _Nonnull)claimToken completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
 @end
 
 
 @interface OrderManager (SWIFT_EXTENSION(PickupSDK))
+/// To get the Active Orders List
+/// \param completion completion handler ([PickupOrderResModel]?, Error?), to get the callback for the async operation.
+///
 + (void)getActiveOrderListWithCompletion:(void (^ _Nonnull)(NSArray<PickupOrderResModel *> * _Nullable, NSError * _Nullable))completion;
+/// To get the order detail
+/// \param orderId order ID
+///
+/// \param completion completion handler (PickupOrderResModel?, Error?) for getting the callback of the async operation.
+///
 + (void)getOrderDetailWithOrderId:(NSString * _Nullable)orderId completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
 @end
 
@@ -296,6 +314,13 @@ SWIFT_CLASS("_TtC9PickupSDK19PickupConfiguration")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <LocationStatusManagerDelegate> _Nullable delegate;)
 + (id <LocationStatusManagerDelegate> _Nullable)delegate SWIFT_WARN_UNUSED_RESULT;
 + (void)setDelegate:(id <LocationStatusManagerDelegate> _Nullable)value;
+/// This is the initialiser function and it is required to be called in Appdelegate’s DidFinishLaunchingWithOptions delegate function.
+/// \param client Client ID
+///
+/// \param secret Client Secret
+///
+/// \param prod true if the Api endpoint is Production and false otherwise
+///
 + (void)initialiseWithClient:(NSString * _Nonnull)client secret:(NSString * _Nonnull)secret isProd:(BOOL)prod;
 + (void)setPunchhUserAccessTokenWithToken:(NSString * _Nonnull)token;
 + (NSString * _Nullable)getAccessToken SWIFT_WARN_UNUSED_RESULT;
@@ -368,14 +393,8 @@ SWIFT_CLASS("_TtC9PickupSDK14PickupResModel")
 @end
 
 
-SWIFT_CLASS("_TtC9PickupSDK13RequestHeader")
-@interface RequestHeader : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC9PickupSDK14RequestManager")
-@interface RequestManager : NSObject
+SWIFT_CLASS("_TtC9PickupSDK19PickupTotalResModel")
+@interface PickupTotalResModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -602,6 +621,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC9PickupSDK21LocationStatusManager")
 @interface LocationStatusManager : NSObject
+/// Call this function to update userStatus
+/// \param params request Parameters
+///
+/// \param orderId orderID for which the status is required to be update
+///
+/// \param completion completion handler (PickupOrderResModel?, Error?) for getting the callback of the async call.
+///
 + (void)updateUserStatusWithParams:(NSDictionary<NSString *, id> * _Nonnull)params orderId:(NSString * _Nonnull)orderId completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -619,22 +645,15 @@ SWIFT_CLASS("_TtC9PickupSDK11MetaManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC9PickupSDK16NetworkConstants")
-@interface NetworkConstants : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC9PickupSDK14NetworkManager")
-@interface NetworkManager : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class PickupNotificationResModel;
 
 SWIFT_CLASS("_TtC9PickupSDK19NotificationManager")
 @interface NotificationManager : NSObject
+/// get Notification for specific order ID
+/// \param orderId orderID
+///
+/// \param completion completion handler (PickupNotificationResModel?, Error?) to get the callback for async operations
+///
 + (void)getNotificationsWithOrderId:(NSString * _Nonnull)orderId completion:(void (^ _Nonnull)(PickupNotificationResModel * _Nullable, NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -642,18 +661,36 @@ SWIFT_CLASS("_TtC9PickupSDK19NotificationManager")
 
 SWIFT_CLASS("_TtC9PickupSDK12OrderManager")
 @interface OrderManager : NSObject
+/// Create Order using this function
+/// \param params createOrder Params
+///
+/// \param completion completion handler (PickupOrderResModel?, Error?) to get the callback of the asyc operation.
+///
 + (void)createWithParams:(NSDictionary<NSString *, id> * _Nonnull)params completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 @interface OrderManager (SWIFT_EXTENSION(PickupSDK))
+/// To claim the order placed via website.
+/// \param claimToken claimToken provided in the email or deeplink
+///
+/// \param completion completion handler (PickupOrderResModel?, Error?) for getting the callback of the async operation.
+///
 + (void)claimWebOrderWithClaimToken:(NSString * _Nonnull)claimToken completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
 @end
 
 
 @interface OrderManager (SWIFT_EXTENSION(PickupSDK))
+/// To get the Active Orders List
+/// \param completion completion handler ([PickupOrderResModel]?, Error?), to get the callback for the async operation.
+///
 + (void)getActiveOrderListWithCompletion:(void (^ _Nonnull)(NSArray<PickupOrderResModel *> * _Nullable, NSError * _Nullable))completion;
+/// To get the order detail
+/// \param orderId order ID
+///
+/// \param completion completion handler (PickupOrderResModel?, Error?) for getting the callback of the async operation.
+///
 + (void)getOrderDetailWithOrderId:(NSString * _Nullable)orderId completion:(void (^ _Nonnull)(PickupOrderResModel * _Nullable, NSError * _Nullable))completion;
 @end
 
@@ -683,6 +720,13 @@ SWIFT_CLASS("_TtC9PickupSDK19PickupConfiguration")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <LocationStatusManagerDelegate> _Nullable delegate;)
 + (id <LocationStatusManagerDelegate> _Nullable)delegate SWIFT_WARN_UNUSED_RESULT;
 + (void)setDelegate:(id <LocationStatusManagerDelegate> _Nullable)value;
+/// This is the initialiser function and it is required to be called in Appdelegate’s DidFinishLaunchingWithOptions delegate function.
+/// \param client Client ID
+///
+/// \param secret Client Secret
+///
+/// \param prod true if the Api endpoint is Production and false otherwise
+///
 + (void)initialiseWithClient:(NSString * _Nonnull)client secret:(NSString * _Nonnull)secret isProd:(BOOL)prod;
 + (void)setPunchhUserAccessTokenWithToken:(NSString * _Nonnull)token;
 + (NSString * _Nullable)getAccessToken SWIFT_WARN_UNUSED_RESULT;
@@ -755,14 +799,8 @@ SWIFT_CLASS("_TtC9PickupSDK14PickupResModel")
 @end
 
 
-SWIFT_CLASS("_TtC9PickupSDK13RequestHeader")
-@interface RequestHeader : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC9PickupSDK14RequestManager")
-@interface RequestManager : NSObject
+SWIFT_CLASS("_TtC9PickupSDK19PickupTotalResModel")
+@interface PickupTotalResModel : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
