@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/gauravShishodia27/TestSDK.git", :tag => "1.0.0" }
 
-  spec.vendored_frameworks = "PickupSDK.xcframework"
+  spec.vendored_frameworks = "PickupSDK.xcframework", "Frameworks/Alamofire.xcframework", "Frameworks/CryptoSwift.xcframework", "Frameworks/NWWebSocket.xcframework", "Frameworks/PusherSwift.xcframework", "Frameworks/TweetNacl.xcframework"
   spec.static_framework = true
 
   #spec.dependency 'Alamofire'

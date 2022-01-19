@@ -324,7 +324,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <LocationStatusMana
 + (void)initialiseWithClient:(NSString * _Nonnull)client secret:(NSString * _Nonnull)secret isProd:(BOOL)prod;
 + (void)setPunchhUserAccessTokenWithToken:(NSString * _Nonnull)token;
 + (NSString * _Nullable)getAccessToken SWIFT_WARN_UNUSED_RESULT;
-+ (void)clearPunchhPickupSession;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -731,7 +730,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) id <LocationStatusMana
 + (void)initialiseWithClient:(NSString * _Nonnull)client secret:(NSString * _Nonnull)secret isProd:(BOOL)prod;
 + (void)setPunchhUserAccessTokenWithToken:(NSString * _Nonnull)token;
 + (NSString * _Nullable)getAccessToken SWIFT_WARN_UNUSED_RESULT;
-+ (void)clearPunchhPickupSession;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
