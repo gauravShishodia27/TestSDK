@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PickupSDK-Swift.h</key>
 		<data>
-		UIf/UrP2NdHTZ7x8TniZb2HxobQ=
+		sXw7xRh9wM8TN4THgVa1o/v7vGo=
 		</data>
 		<key>Headers/PickupSDK.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		O4jwShp0NMzNLiewTTidbm5YhbU=
+		HLJg3mf61y/viD0Dchf26LVRs3c=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5KiQiXVuCDW7b58UUuCaVl8mzzQ=
+		vZtogIoXo3MMURpvS2wqPREF40g=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		O4jwShp0NMzNLiewTTidbm5YhbU=
+		HLJg3mf61y/viD0Dchf26LVRs3c=
 		</data>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		5KiQiXVuCDW7b58UUuCaVl8mzzQ=
+		vZtogIoXo3MMURpvS2wqPREF40g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PsBVTLOCWCOsRPnANSBdH8veVI4UTHBZBF5OALs26t4=
+			lR8L/k2y+/i9tE7fGjupT6VgQSXBD5Z/meqXb6YzqDI=
 			</data>
 		</dict>
 		<key>Headers/PickupSDK.h</key>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oTbgR9rVB5AwYP6oPODn6PYuFXQEcz43MO7L6lJYJlI=
+			PmcMkcQ+3RpXOpk+FXwknFTEunVtidZSezkL/tMBNr0=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ABHowPwjzpxy9WfniVCxcjKvs+Fsue40AMXOv1ldZM=
+			glg43oDQGRxU32ZbB0KdyL/cTO8CAjPSsnCH1p4JEFg=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oTbgR9rVB5AwYP6oPODn6PYuFXQEcz43MO7L6lJYJlI=
+			PmcMkcQ+3RpXOpk+FXwknFTEunVtidZSezkL/tMBNr0=
 			</data>
 		</dict>
 		<key>Modules/PickupSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1ABHowPwjzpxy9WfniVCxcjKvs+Fsue40AMXOv1ldZM=
+			glg43oDQGRxU32ZbB0KdyL/cTO8CAjPSsnCH1p4JEFg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
